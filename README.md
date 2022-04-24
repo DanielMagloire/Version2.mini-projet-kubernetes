@@ -145,7 +145,7 @@ kube-system       Active   29m
 wordpress         Active   8m23s
 ```
 
-2. Je vais visualiser le podes qui sont dans le namespace wordpress
+2. Je vais visualiser les podes qui sont dans le namespace wordpress
 
 ```
 kubectl get po -n wordpress
