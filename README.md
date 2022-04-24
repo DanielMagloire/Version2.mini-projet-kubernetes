@@ -179,7 +179,7 @@ wordpress   NodePort    10.106.36.111   <none>        80:30008/TCP   18m
 wp-mysql    ClusterIP   10.101.89.37    <none>        3306/TCP       18m
 ```
 
-4. Je vais visualiser que mes secrets
+4. Je vais visualiser que mes secrets existent.
 ```
 kubectl get secret -n wordpress
 ```
