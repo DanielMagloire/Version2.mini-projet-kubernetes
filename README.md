@@ -32,7 +32,7 @@ Ce qui sera stocké à l'intérieur de ce volume sera le contenu **/var/www/html
 
 Tous ces objets ainsi que toutes les ressources seront dans un **Namespace** appelé **WordPress**. 
 
-Afin que l'appication soit consommée par une personne venant de l'extérieure, celle-ci sera obligée de passer par le **service nodeport**. NodePort expose le service depuis l’IP publique de chacun des noeuds du cluster en ouvrant port directement sur le nœud, entre **30000** et **32767**. Cela permet d’accéder aux pods internes répliqués. Comme l’IP est stable on peut faire pointer un DNS ou Loadbalancer classique dessus.
+Afin que l'appication soit consommée par une personne venant de l'extérieure, celle-ci sera obligée de passer par le **service NodePort**. NodePort expose le service depuis l’IP publique de chacun des noeuds du cluster en ouvrant port directement sur le nœud, entre **30000** et **32767**. Cela permet d’accéder aux pods internes répliqués. Comme l’IP est stable on peut faire pointer un DNS ou Loadbalancer classique dessus.
 
 # Illustration graphique de notre solution
 
