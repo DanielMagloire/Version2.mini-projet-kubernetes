@@ -105,7 +105,7 @@ Ces manifestes se trouvent dans le dossier **stack-k8s**.
 -  **mysql-deployment** est le manifeste qui va nous permettre de déployer la base de données *MySql*.
 -  **app-wordpress-secret.yml** est le manifeste de l'objet *secret* qui contient tous mes credentials de wordpress et mysql.
 -  **app-workpress-namespaces.yml** est le namespace de wordpress.
--  **wordpress-deplyment** est le manifeste qui va nous permettre de déployer l'application *wordpress*.
+-  **wordpress-deployment** est le manifeste qui va nous permettre de déployer l'application *wordpress*.
 -  **service-clusterip-mysql.yml** est le service qu va permettre à notre *deployement mysql* d'exposer via un *ClusterIp* l'application en interne.
 -  **service-nodeport-wordpress.yml** est le service qu va permettre à notre *deployement wordpress* d'exposer via un *NodePord* l'application en externe.
 
